@@ -17,6 +17,7 @@ Projeto em andamento.
 ### Tecnologias
 
 - React.js (v18 ou superior);
+- [Library Phosphor Icons](https://github.com/phosphor-icons/homepage)
 - Figma.
 
 ## Instalando
