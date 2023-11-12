@@ -7,7 +7,7 @@ export const Post = () => {
         <header>
           <div className={style.author}>
             <img
-              src=''
+              src='https://github.com/igoraugustobrz.png'
               className={style.avatar}
             />
 
@@ -28,11 +28,12 @@ export const Post = () => {
 
         <div className={style.content}>
 
-          <p>Fala galeraa 👋</p>
+          <p>Fala galeraa 👋🏻</p>
 
-          <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Discover, curso da Rocketseat. O nome do projeto é DevLinks 🚀</p>
+          <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Discover, curso da Rocketseat. O nome do projeto é DevLinks 🚀✨</p>
 
-          <p>👉
+          <p className={style.spacing}>
+            👉🏻
             <a
               href='https://iaugusto-devlinks.vercel.app/'
               rel='noreferrer'
@@ -42,9 +43,9 @@ export const Post = () => {
             </a>
           </p>
 
-          <p>
-            <a href="#">#novoprojeto </a>
-            <a href="#">#discover </a>
+          <p className={style.spacing}>
+            <a href="#">#novoprojeto</a>
+            <a href="#">#discover</a>
             <a href="#">#rocketseat</a>
           </p>
         </div>
